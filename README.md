@@ -43,7 +43,7 @@ Run the CSRF PoC generator script, which will prompt for input using the request
 This will create an HTML file (default: CSRF_POC csrf_poc.html) containing a form with the specified HTTP method, action URL, and parameters pre-filled as hidden inputs.
 
 ### **Sample HTML OUTPUT**
-![img.png](img.png)
+![Screenshot](Poc_screenshot.png)
 
 #### **How It Works ⚙️**
 1. The request parser extracts HTTP method, URL, and request body.
