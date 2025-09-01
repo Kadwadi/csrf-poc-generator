@@ -24,15 +24,15 @@ Clone this repository or download the source files:
 You can input HTTP requests in three ways:
 
 ##### **Raw HTTP request (interactive):**
-    python request_parser.py
+    python csrf_poc_generator.py
 You will be prompted to paste your HTTP request line-by-line. Type **END** on a new line to finish.
 
 #### **cURL command input:**
-    python request_parser.py -c "curl -X POST https://example.com/api -d 'param1=value1&param2=value2'"
+    python csrf_poc_generator.py -c "curl -X POST https://example.com/api -d 'param1=value1&param2=value2'"
 
 
 #### **Text file input:**
-    python request_parser.py -t /path/to/request.txt
+    python csrf_poc_generator.py -t /path/to/request.txt
 
 ### **2. Generating the CSRF PoC HTML**
 
@@ -41,6 +41,9 @@ Run the CSRF PoC generator script, which will prompt for input using the request
     python csrf_poc_generator.py
 
 This will create an HTML file (default: CSRF_POC csrf_poc.html) containing a form with the specified HTTP method, action URL, and parameters pre-filled as hidden inputs.
+
+### **Sample HTML OUTPUT**
+![img.png](img.png)
 
 #### **How It Works ⚙️**
 1. The request parser extracts HTTP method, URL, and request body.
