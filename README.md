@@ -57,13 +57,11 @@ This will create an HTML file (default: CSRF_POC csrf_poc.html) containing a for
 3. The generated CSRF PoC HTML file is automatically opened in your default web browser upon creation.
 
 ### **Demo video link 🔗**
-[Demo Video1:](csrf_poc/CSRF_PoC_by_raw_request.mp4)
+[Demo Video1:](CSRF_PoC_by_raw_request.mp4)
 
-[Demo Video2:](csrf_poc/CSRF_Poc_by_Curl_command.mp4)
+[Demo Video2:](CSRF_Poc_by_Curl_command.mp4)
 
-[Demo Video3:](csrf_poc/CSRF_Poc_by_text_file.mp4)
-
-
+[Demo Video3:](CSRF_Poc_by_text_file.mp4)
 
 ### Disclaimer ⚠️
 
