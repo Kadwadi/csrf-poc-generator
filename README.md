@@ -56,6 +56,15 @@ This will create an HTML file (default: CSRF_POC csrf_poc.html) containing a for
 2. The generated form uses the HTTPS scheme by default.
 3. The generated CSRF PoC HTML file is automatically opened in your default web browser upon creation.
 
+### **Demo video link 🔗**
+[Demo Video1:](csrf_poc/CSRF_PoC_by_raw_request.mp4)
+
+[Demo Video2:](csrf_poc/CSRF_Poc_by_Curl_command.mp4)
+
+[Demo Video3:](csrf_poc/CSRF_Poc_by_text_file.mp4)
+
+
+
 ### Disclaimer ⚠️
 
 This tool is intended **only for educational purposes** and **authorized penetration testing**. **Do not use this tool on systems without proper permission.**
